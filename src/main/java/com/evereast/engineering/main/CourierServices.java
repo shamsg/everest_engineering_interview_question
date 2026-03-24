@@ -41,7 +41,7 @@ public class CourierServices {
                 double totalCost = deliveryCost - discount;
                 double estimateDeliveryTime =0;
                 // this output as specified in the requirement
-                System.out.println(pkgId + " " + discount + " " + totalCost + " "+ estimateDeliveryTime);
+                //System.out.println(pkgId + " " + discount + " " + totalCost + " "+ estimateDeliveryTime);
                 // save the package details to be used after the calculation of the estimated time
                 packageDetailsList.add(new PackageDetails(pkgId, pkgWeight, pkgDistance, discount, totalCost));
             }
